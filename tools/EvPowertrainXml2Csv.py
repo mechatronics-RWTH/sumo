@@ -1,6 +1,7 @@
 ##
 # \file EvPowertrainXml2Csv.py
 # \author Kevin Badalian (badalian_k@vka.rwth-aachen.de)
+# \author Sven Schönberg (sven.schoenberg@c-lab.de)
 # \copyright Eclipse Public License v2.0
 #            (https://www.eclipse.org/legal/epl-2.0/)
 # \brief This application converts the XML output of the VKA EV powertrain to a
@@ -57,4 +58,3 @@ with open(parsedArguments.csv_file, "w") as csvFile:
 
     elem.clear()
     root.clear()
-
